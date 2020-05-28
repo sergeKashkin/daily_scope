@@ -7,7 +7,6 @@ const signs = require('../../texts/signs.json');
 
 class Card extends Component {
   constructor(props) {
-    console.log(props);
     super(props)
     this.state = {
       title : signs[props.currentSign].title,

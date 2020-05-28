@@ -15,7 +15,6 @@ const Change = ({changeSign}) => {
     }
 
     const change = (e) => {
-        console.log(e.target);
         let signon = e.target.src.split('/')[6].split('.')[0];
         changeSign(signon);
     }
