@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/daily_scope/static/css/main.7a3e879f.chunk.css",
+    "main.css": "/daily_scope/static/css/main.1498f82a.chunk.css",
     "main.js": "/daily_scope/static/js/main.7bce9669.chunk.js",
     "main.js.map": "/daily_scope/static/js/main.7bce9669.chunk.js.map",
     "runtime-main.js": "/daily_scope/static/js/runtime-main.aa42d766.js",
@@ -8,9 +8,9 @@
     "static/js/2.19279b2d.chunk.js": "/daily_scope/static/js/2.19279b2d.chunk.js",
     "static/js/2.19279b2d.chunk.js.map": "/daily_scope/static/js/2.19279b2d.chunk.js.map",
     "index.html": "/daily_scope/index.html",
-    "precache-manifest.aa4c0930ad186a086915f016f020cfea.js": "/daily_scope/precache-manifest.aa4c0930ad186a086915f016f020cfea.js",
+    "precache-manifest.75d6f1f7f37a245ee38f326ab4c52cc6.js": "/daily_scope/precache-manifest.75d6f1f7f37a245ee38f326ab4c52cc6.js",
     "service-worker.js": "/daily_scope/service-worker.js",
-    "static/css/main.7a3e879f.chunk.css.map": "/daily_scope/static/css/main.7a3e879f.chunk.css.map",
+    "static/css/main.1498f82a.chunk.css.map": "/daily_scope/static/css/main.1498f82a.chunk.css.map",
     "static/js/2.19279b2d.chunk.js.LICENSE.txt": "/daily_scope/static/js/2.19279b2d.chunk.js.LICENSE.txt",
     "static/media/aquarius-stars.png": "/daily_scope/static/media/aquarius-stars.8bf1576e.png",
     "static/media/aquarius.png": "/daily_scope/static/media/aquarius.2d55417b.png",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa42d766.js",
     "static/js/2.19279b2d.chunk.js",
-    "static/css/main.7a3e879f.chunk.css",
+    "static/css/main.1498f82a.chunk.css",
     "static/js/main.7bce9669.chunk.js"
   ]
 }
