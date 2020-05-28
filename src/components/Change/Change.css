@@ -56,6 +56,7 @@
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     border-radius: 120px;
     background-color: rgba(0,0,0,0.9);
+    max-width:100%;
 }
 
 .sign:hover {
@@ -63,9 +64,9 @@
 }
 
 .flex {
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #first {
@@ -109,5 +110,12 @@
     .card2 {
         grid-template-columns: 80vw;
         grid-template-rows: 10vh 25vh 5vh 20vh 5vh;
+    }
+}
+
+@media (max-height:375px){
+    .card2 {
+        grid-template-columns: 80vw;
+        grid-template-rows: 10vh 25vh 5vh 25vh 5vh;
     }
 }
