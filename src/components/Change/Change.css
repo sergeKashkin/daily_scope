@@ -1,0 +1,113 @@
+.card2 {
+    display: grid;
+    grid-template-columns: 40vw;
+    grid-template-rows: 5vh 20vh 5vh 20vh 0vh;
+    grid-template-areas: "title" "first" "sign" "second" "blank";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 150px;
+}
+
+
+
+
+.title {
+    display:flex;
+    justify-content: center;
+    padding:0px;
+    color:white;
+    grid-area:title;
+    border-bottom: 1px solid rgb(255, 7, 110);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(255, 7, 110);
+}
+
+
+.card-text h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card-stats .border {
+    border-right: 1px solid rgb(172, 26, 87);
+    border-left: 1px solid rgb(172, 26, 87);
+}
+
+.card:hover .card-image {
+    background-size: 100%;
+}
+
+.card:hover .overlay {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.sign {
+    transition: 0.5s ease;
+    transform: scale(0.8);
+    opacity:1;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    border-radius: 120px;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.sign:hover {
+    transform:scale(1);
+}
+
+.flex {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#first {
+    grid-area: first;
+}
+
+#second {
+    grid-area: second;
+}
+
+#sign {
+    grid-area: sign;
+}
+
+@media (max-width:1100px){
+    .card2 { grid-template-columns: 85vw; }
+}
+
+@media (max-width:768px){
+    .card2 { 
+        grid-template-columns: 85vw; 
+        grid-template-rows: 5vh 20vh 2vh 20vh 5vh;
+    }
+}
+
+@media (max-width:740px){
+    .card2 { 
+        grid-template-columns: 85vw; 
+        grid-template-rows: 10vh 25vh 5vh 20vh 5vh;
+    }
+}
+
+@media (max-width:360px){
+    .card2 { 
+        grid-template-columns: 85vw;
+        grid-template-rows: 5vh 20vh 0vh 20vh 0vh; 
+    }
+}
+
+@media (max-height:360px){
+    .card2 {
+        grid-template-columns: 80vw;
+        grid-template-rows: 10vh 25vh 5vh 20vh 5vh;
+    }
+}
