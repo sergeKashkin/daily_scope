@@ -6,7 +6,7 @@ const Change = ({changeSign}) => {
 
 
     const signName = (e) => {
-        let signon = e.target.src.split('/')[5].split('.')[0];
+        let signon = e.target.src.split('/')[6].split('.')[0];
         document.getElementById('cur_sign').textContent = signon.charAt(0).toUpperCase() + signon.slice(1);
     }
 
