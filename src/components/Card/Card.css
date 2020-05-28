@@ -97,7 +97,7 @@ h2 {
 
 .card:hover #sign_img{
     transform:scale(1.1);
-    opacity: 100%;
+    opacity: 1;
 }
 
 .card:hover .card-image {
@@ -114,7 +114,7 @@ h2 {
     height: auto;
     transition: 0.5s ease;
     transform: scale(0.9);
-    opacity: 80%;
+    opacity: 0.8;
 }
 
 
